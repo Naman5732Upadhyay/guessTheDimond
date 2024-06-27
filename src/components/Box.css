@@ -1,0 +1,38 @@
+.box{
+    border: 0px solid gray;
+    border-radius: 8px;
+    padding:15px 20px 20px 20px;    
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.boxNull{
+    background-color: #444;
+}
+.boxGradient{
+    background: linear-gradient(225deg, #77ffa8, #ffe081 33%, #ffad8e 68%, #a592ff) !important;
+    z-index: 1;
+    cursor: pointer;
+}
+.boxOpen.boxGreen{
+    background: #3e6d4f !important;
+    background-color: #3e6d4f;
+    background-position: 0 0;
+    background-size: 500% 500%;
+    border-color: #77ffab;
+   
+}
+.boxOpen.boxGray{
+    background-color: #333 !important;
+    background-position: 25% 0 !important;
+    background-size: 500% 500% !important;
+    border-color: #333 !important;
+    border-width: 2px !important;
+}
+.boxOpen{
+    border-radius: 7px;
+    border-width: 2px;
+    cursor: default;
+    opacity: .8;
+    pointer-events: none;
+}
